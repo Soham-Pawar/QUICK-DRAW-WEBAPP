@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to right, yellow 0%, violet 100%);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#close:hover{
+    color: red;
+}
+
+#score{
+    float: left;
+}
+
+#timer{
+    float: right;
+}
+
+canvas{
+border-radius: 28px;
+border: 5px solid white;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+margin-top: 150px;
+}
+    
+@keyframes example{
+from {box-shadow: 8px 8px 48px Aqua;}
+to {box-shadow: 8px 8px 48px Crimson;}
+}
+
+#to_be_drawn{
+color: red;
+font-weight: bolder;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#close{
+    font-size: 30px;
+}
+    
+.header{
+    width: 100%;
+    background-color: white;
+}
+    
+#label{
+    font-weight: bold;
+    font-size: 20px;
+}
+    
+#confidence{
+    font-weight: bold;
+    font-size: 20px;
+}
+#Clear{
+    border-width: 3px;
+    border-color: black;
+    font-size: 17px;
+    color: Black;
+    font-weight: bolder;
+}
+
+#Clear:hover{
+    background-color: blue;
+    color: white;
+}
+    
+#show_sketch:hover{
+    background-color: purple;
+    color: white;
+}
+    
+#show_sketch{
+    float: right;
+    margin-right: 10px;
+    border-width: 3px;
+    border-color: black;
+    font-size: 17px;
+    color: Black;
+    font-weight: bolder;
+}
